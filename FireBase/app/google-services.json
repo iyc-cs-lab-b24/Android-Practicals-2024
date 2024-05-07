@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934250324186",
+    "project_id": "charul-ma-am",
+    "storage_bucket": "charul-ma-am.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934250324186:android:35acb86d457b25993285e3",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1eh01KWO98NP1NIDKZzf0Fpyp8MFb8Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

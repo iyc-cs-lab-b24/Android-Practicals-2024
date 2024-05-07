@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Context Menu</string>
+    <string name="long_press_on_list_item_to_open_context_menu" />
+</resources>

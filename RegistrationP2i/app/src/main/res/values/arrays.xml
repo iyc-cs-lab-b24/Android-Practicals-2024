@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses_array">
+        <item><b>Python</b></item>
+        <item><b>Java</b></item>
+        <item><b>C++</b></item>
+        <!-- Add more courses if needed -->
+    </string-array>
+</resources>

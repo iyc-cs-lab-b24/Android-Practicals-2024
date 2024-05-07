@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <!--on below line we are creating our view flipper-->
+        <ViewFlipper
+            android:id="@+id/idViewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/idLLBtn"
+            android:inAnimation="@android:anim/slide_out_right"
+            android:outAnimation="@android:anim/slide_in_left">
+
+
+            <!--on below line we are creating an imageview-->
+
+
+            <!--on below line we are creating a simple text view-->
+
+
+            <ImageView
+                android:layout_width="369dp"
+                android:layout_height="257dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/tigerf" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Welcome to Android App Development Course"
+                android:textAlignment="center"
+
+
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!--on below line we are creating a simple button-->
+            <Button
+                android:id="@+id/idBtnViewCourse"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="4dp"
+                android:text="View Course"
+                android:textAllCaps="false" />
+
+
+        </ViewFlipper>
+
+
+        <!--on below line we are simply creating a
+            new linear layout for displaying our two buttons-->
+        <LinearLayout
+            android:id="@+id/idLLBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="4">
+
+
+            <!--creating a button for going to previous screen-->
+            <Button
+                android:id="@+id/idBtnPrev"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Previous"
+                android:textAllCaps="false" />
+
+
+            <!--adding view to add space between two buttons-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+
+
+            <!--creating a button to move next screen-->
+            <Button
+                android:id="@+id/idBtnNext"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Next"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
